@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background-color: black; */
+  /* color: white; */
+}
+
+.left {
+  border: 1px solid rgb(0, 0, 0);
+  height: 100vh;
+  width: 25vw;
+}
+.right {
+  border: 1px solid rgb(0, 0, 0);
+  height: 100vh;
+  width: 72.5vw;
+}
+.left-right {
+  display: flex;
+  margin: 7px 0px 9px 6px;
+  overflow: hidden;
+  gap: 6px;
+}
+.home {
+  border: 1px solid black;
+  height: 23vh;
+  width: 25vw;
+  border-radius: 5px;
+  background-color: #121212;
+}
+.logo {
+  padding: 19px;
+  margin-left: 10px;
+}
+
+.homelogo img {
+  height: 25px;
+  width: 25px;
+}
+.homelogo {
+  display: flex;
+  gap: 10px;
+  font-size: large;
+}
+.searchbar {
+  display: flex;
+  gap: 10px;
+  padding-top: 21px;
+}
+.homelogo,
+.searchbar {
+  margin-left: 26px;
+  gap: 23px;
+}
+.playlist {
+  border: 1px solid rgb(0, 0, 0);
+  min-height: 30vh;
+  width: 25vw;
+  margin-top: 5px;
+  background-color: #121212;
+}
+.library {
+  display: flex;
+  gap: 12px;
+  margin: 17px;
+  background-color: #121212;
+  
+}
+.library img {
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+.rules a {
+  text-decoration: none;
+  color: #e2caae;
+}
+.rules {
+  background-color: #121212;
+  min-height: 25vh;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+  width: 294px;
+  font-size: 13px;
+}
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  top: 20px;
+  right: 65px; */
+  gap: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 6vw;
+  border-radius: 30px;
+  padding: 4px;
+  font-size: small;
+}
+.lang img {
+  height: 15px;
+  width: 15px;
+}
+
+.great-less img {
+  
+  width: 17px;
+  filter: invert(1);
+  border-radius: 50%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #101010;
+  height: 10vh;
+}
+.great-less {
+  margin: 18px 0px 0px 20px;
+  gap: 7px;
+  display: flex;
+}
+.great-less button {
+  border-radius: 50%;
+  background-color: black;
+  border: none;
+  height: 35px;
+  width: 25px;
+}
+.nav + h2 {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px 0px 0px 20px;
+}
+.spotifyPlaylist {
+  /* height: 80vh;
+ border: 1px solid black */
+  background-color: #1e1e1e;
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: auto;
+}
+.card img {
+  border-radius: 8px;
+}
+.spotifyPlaylist > h2 {
+  color: white;
+}
+.cardCont {
+  margin: 20px 0px 0px 20px;
+  background-color: #181818;
+  width: 11vw;
+  padding: 15px;
+  border-radius: 11px;
+  height: 33vh;
+}
+.cardCont h2 {
+  font-size: medium;
+  color: white;
+}
+.cardCont p {
+  font-size: small;
+  color: white;
+}
+.bottom {
+  background-color: #1e1e1e;
+  width: 75vw;
+  height: 20vh;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+.btn {
+  padding: 20px;
+}
+.signBtn,
+.logBtn {
+  padding: 12px 28px;
+  border-radius: 37px;
+}
+.logBtn {
+  font-size: 14px;
+  font-weight: 600;
+}
+.signBtn {
+  color: #a7a7a7;
+
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #101010;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: aquamarine;
+      }
+      body {
+        text-align: center;
+      }
+      .container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 23vw;
+        margin: auto;
+        /* margin-top: 3rem; */
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+      }
+      .box {
+        border: 1px solid black;
+        height: 12vh;
+        width: 7vw;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8vmin;
+        color: red;
+        cursor: pointer;
+      }
+      h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem;
+      }
+      .reset-btn {
+        margin-top: 2rem;
+        background-color: rgb(218, 175, 111);
+        padding: 8px;
+        color: rgb(45, 29, 29);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .newBtn {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 1.5rem;
+      }
+      .msg {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 10px;
+        
+      }
+      .hide {
+        /* visibility: hidden; */
+        display: none;
+        
+      }
+      .msg-container {
+        height: 100vh;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="msg-container hide">
+      <div class="msg">Winner</div>
+      <br />
+      <button class="newBtn">New Game</button>
+    </div>
+    <h2>Tic Tac Toe</h2>
+    <div class="container">
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+    </div>
+    <button class="reset-btn">Reset Button</button>
+
+    <script src="Tic_Tac_Toe.js"></script>
+  </body>
+</html>

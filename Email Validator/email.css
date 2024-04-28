@@ -1,0 +1,19 @@
+.emailCont{
+    margin-left: 7rem;
+    gap: 2rem;
+}
+.submit{
+    padding-top: 2rem;
+}
+.subBtn{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+.resultCont{
+    gap: 112px;
+}
+/* .resultCont img{     // We can change the ratio of the image
+    width: 15px;
+} */

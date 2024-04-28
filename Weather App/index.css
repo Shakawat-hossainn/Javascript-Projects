@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border: 1px solid rgb(255, 255, 255); */
+  margin: 9rem auto;
+  min-height: 55vh;
+  width: 20vw;
+  border-radius: 1rem;
+  background-color: skyblue;
+}
+
+.searchBox {
+ 
+  display: flex;
+}
+.input {
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  height: 20px;
+  margin: 21px;
+  padding: 8px;
+  width: 66%;
+
+}
+.search{
+    margin: 17px -10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.search img{
+    height: 18px;
+    width: 22px;
+}

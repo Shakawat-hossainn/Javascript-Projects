@@ -1,0 +1,20 @@
+.container{
+    height: 70vh;
+    width: 23vw;
+    margin: 90px auto;
+}
+
+.calc{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    height: 40vh;
+   
+}
+.rowspan{
+    grid-row: 2 / 6;
+    grid-column: 4 / 5;
+}
+.input{
+    width: 98%;
+    height: 2rem;
+}

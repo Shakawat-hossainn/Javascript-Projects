@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  height: 50vh;
+  width: 8vw;
+  margin: 120px auto;
+}
+.calc {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 17vw;
+}
+/* .row {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 17vw;
+} */
+button {
+  width: 4vw;
+  height: 10vh;
+}
+
+.rowspan {
+}

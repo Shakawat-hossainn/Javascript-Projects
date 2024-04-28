@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blueviolet;
+}
+.head span {
+  font-weight: 600;
+  font-size: larger;
+  padding: 29px;
+}
+
+.head img {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  left: -28px;
+  top: 4px;
+}
+.container {
+  border: 1px solid black;
+  width: 25vw;
+  min-height: 40vh;
+  margin: 70px auto;
+  /* text-align: center; */
+  background-color: white;
+}
+.text {
+  padding: 15px 24px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 30%;
+}
+.collection {
+  background-color: aquamarine;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+.btn {
+  background-color: orangered;
+  padding: 12px 27px;
+  border-radius: 1.5rem;
+}
+.list ul li {
+  list-style: none;
+
+}
+ul li:hover{
+  background-color: grey;
+}
+.list ul {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.list ul li::before {
+  content: "";
+  background-image: url(SVG/circle.svg);
+  height: 23px;
+  width: 26px;
+  position: absolute;
+  left: 37.5%;
+  background-repeat: no-repeat;
+}
+
+.list ul li span{
+  content: "";
+  background-image: url(SVG/checked.svg);
+  height: 23px;
+  width: 26px;
+  position: absolute;
+  left: 37.5%;
+  background-repeat: no-repeat;
+}
+ .clickWork ul li::before {
+  content: "";
+  background-image: url(SVG/checked.svg);
+  height: 23px;
+  width: 26px;
+  position: absolute;
+  left: 30%;
+  background-repeat: no-repeat;
+  text-decoration: line-through;
+
+}
+.clickWork ul li{
+  text-decoration: line-through;
+}
+
+.list {
+  margin-left: 25px;
+  gap: 30px;
+  margin-bottom: 25px;
+}
